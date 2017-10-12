@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bike & Weather</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Gloria+Hallelujah|Sedgwick+Ave|Slabo+27px" rel="stylesheet">
+</head>
+<body>
+	<div class="mainSection wrapper">
+		<div id="particles-js"></div>
+		<div class="nav">
+			<img src="56499da90692b_City-bike.svg" alt="">
+			<h1>Should I ride a bike today?...</h1>
+		</div>
+		<form action="">
+			<p>Select your location</p>
+			<select></select>
+			<button type="submit" id="submit">BIKE</button>
+		</form>
+	</div>
+		<div id="weatherInfo" class="weather secondWrapper">
+			<div class="weatherFlex">
+				<p class="temp"></p>
+				<img class="weatherIcon">
+			</div>
+			<p class="description"></p>
+			<p class="tempMax"></p>
+			<p class="tempMin"></p>
+			<p class="weatherMessage"></p>
+		</div>
+		<div class="bikes"></div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</body>
+</html>

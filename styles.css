@@ -1,0 +1,247 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #A0B0E0; }
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 40px; }
+  @media (max-width: 560px) {
+    h1 {
+      font-size: 30px; } }
+
+.nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 220px; }
+  .nav img {
+    width: 10%;
+    height: 10%; }
+
+.mainSection {
+  height: 100vh; }
+
+form {
+  text-align: center; }
+  form p {
+    font-family: 'Slabo 27px', serif;
+    color: #fff;
+    font-size: 20px; }
+  form button {
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0 30px;
+    font-family: 'Slabo 27px', serif; }
+  form select {
+    margin-bottom: 170px; }
+    @media (max-width: 500px) {
+      form select {
+        margin-bottom: 15px; } }
+
+.weather {
+  text-align: center;
+  height: 85vh;
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto; }
+  @media (max-width: 500px) {
+    .weather {
+      width: 80%; } }
+  .weather .weatherFlex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .weather .weatherFlex p {
+      font-size: 50px;
+      color: #FFA07A;
+      margin-bottom: 0; }
+    .weather .weatherFlex img {
+      height: 100%; }
+
+.description {
+  color: #FFA07A;
+  padding-left: 100px;
+  text-transform: capitalize;
+  font-size: 20px; }
+
+.tempMax, .tempMin {
+  font-size: 20px;
+  text-align: right; }
+
+.weatherMessage {
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Gloria Hallelujah', cursive; }
+
+.bikes {
+  text-align: center;
+  max-width: 30%;
+  margin: 0 auto; }
+  @media (max-width: 500px) {
+    .bikes {
+      max-width: 90%; } }
+  .bikes h3 {
+    font-family: 'Courgette', cursive;
+    color: red;
+    font-size: 30px; }
+  .bikes p {
+    font-family: 'Slabo 27px', serif;
+    color: #FFF5EE;
+    font-size: 20px; }
+  .bikes div {
+    border-bottom: 1px solid white;
+    border-radius: 10px; }
